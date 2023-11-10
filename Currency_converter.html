@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+CURRENCY CONVERTER
+<body>
+  <h1></h1><input id="Myinput"/></h1>
+ <button onclick="call()">
+    US</button>
+<button onclick="calle()">
+    YEN</button>
+<button onclick="caller()">
+    EURO</button>
+<h2 id="result"></h2>
+<h2 id="resul"></h2>
+<h2 id="resu"></h2>
+
+<script>function call(){
+  const inputbx=document.getElementById("Myinput").value;
+  var dol=(inputbx)/85
+  document.getElementById("result").innerHTML=dol+" $";}
+function calle(){
+  const inputbx=document.getElementById("Myinput").value;
+  var yen=(inputbx)/0.55
+  document.getElementById("resul").innerHTML=yen+" yen";}
+function caller(){
+  const inputbx=document.getElementById("Myinput").value;
+  var euro=(inputbx)/89.5
+  document.getElementById("resu").innerHTML=(euro+ " euros");
+}
+</script>
+</body>
+</html>
